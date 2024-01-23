@@ -1,0 +1,36 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+ 
+        h2 {
+            color: #333;
+        }
+ 
+        p {
+            color: #666;
+        }
+ 
+        .review-section {
+            margin-top: 20px;
+        }
+ 
+        .hidden {
+            display: none;
+        }
+        .kep{
+            height: 250px;
+            width: 200px;
+            margin-right: 60px;
+            margin-left: 60px;
+        
+        }
+        .book{
+            text-align: left;
+        }
+        nav {
+            background-color: grey;
+            color: #fff;
+            padding: 10px;
+          }
