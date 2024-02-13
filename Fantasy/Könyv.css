@@ -1,34 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
- 
-        h2 {
-            color: #333;
-        }
- 
-        p {
-            color: #666;
-        }
- 
-        .review-section {
-            margin-top: 20px;
-        }
- 
-        .hidden {
-            display: none;
-        }
-        .kep{
-            height: 250px;
-            width: 200px;
-            position: center;
-        }
-        .book{
-            text-align: left;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-          }
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.review-section {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+.kep{
+    height: 250px;
+    width: 200px;
+    position: center;
+}
+.book{
+    text-align: left;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .books-container {
+    display: inline-flex;
+}
+
+.book {
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+.video-background{
+    background-size:100% 180%;
+}
