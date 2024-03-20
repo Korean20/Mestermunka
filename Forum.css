@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.post h2 {
+    margin-top: 0;
+}
+.post p {
+    margin-bottom: 10px;
+}
+#message-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#post-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#post-button:hover {
+    background-color: #0056b3;
+}
