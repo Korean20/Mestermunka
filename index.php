@@ -23,7 +23,7 @@ if ($current_page_url == "/Regisztracio.php") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="kezdolap.css">
+    <link rel="stylesheet" href="CSS/kezdolap.css">
     <title>Az Elfelejtett Könyvtár</title>
 </head>
 <header>
@@ -61,10 +61,10 @@ if ($current_page_url == "/Regisztracio.php") {
                 Kiemelni a könyv egyediségét, izgalmas cselekményét, és azt, hogy milyen élményekre számíthat az olvasó.
             </p>
 
-            <h3>Belepés / Regisztráció / Forum</h3>
-            <a href="Bejelentkezes.php"><button>Belepés</button></a>
-            <a href="Regisztracio.php"><button>Regisztráció</button></a>
-            <a href="kisindex.php"><Button>Forum</Button></a>
+            <h3>Belepés / Regisztráció / Chat</h3>
+            <a href="pHp/Bejelentkezes.php"><button>Belepés</button></a>
+            <a href="pHp/Regisztracio.php"><button>Regisztráció</button></a>
+            <a href="pHp/kisindex.php"><Button>Chat</Button></a>
 
             <h3>Csatlakozzon Hozzánk!</h3>
             <p>
