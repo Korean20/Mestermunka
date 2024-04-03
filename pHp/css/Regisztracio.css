@@ -1,0 +1,45 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+body{
+  background-color: darkslategrey;
+}
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #030404;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.szin{
+  background-color: blue;
+  height: 50px;
+  width: 100px;
+}
