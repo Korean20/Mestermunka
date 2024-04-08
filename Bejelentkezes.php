@@ -6,10 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'] ?? '';
 
     // Itt lehet folytatni a bejelentkezési logika implementálását
-
-    // Példa: kiírjuk az adatokat
-    echo "Felhasználónév vagy email: " . $name . "<br>";
-    echo "Jelszó: " . $password;
 }
 ?>
 
@@ -20,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bejelentkezés</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Regisztracio.css">
+    <link rel="stylesheet" href="css/Regisztracio.css">
 </head>
 <body>
     <div class="container">
