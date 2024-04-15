@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(book\ gif\ gif.gif);
+    background-repeat: no-repeat;
+    background-size:100% 180%;
+}
+ 
+h1{
+    color: #fff;
+}
+ 
+h2 {
+    color: #fff;
+}
+ 
+p {
+    color: #666;
+}
+ 
+.review-section {
+    margin-top: 20px;
+}
+ 
+.hidden {
+    display: none;
+}
+ 
+.kep{
+    height: 250px;
+    width: auto;
+    margin-right: 60px;
+    margin-left: 60px;
+    border: 5px solid #9e9d9d;
+}
+ 
+.book{
+    text-align: left;
+}
+
+ 
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+ 
+nav {
+    background: linear-gradient(135deg, #faea0f, #1001d8); /* Lila gradient háttér */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    animation: pulse 2s infinite;
+    border-radius: 10px;
+}
+video{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+nav a:hover {
+    color: #FFD700; /* Arany szín az egér fölé mozgatáskor */
+}
+
+.book {
+    padding: 20px;
+    background: linear-gradient(135deg, #faea0f, #1001d8);
+    height: 100%;
+}
+
+.book:first-child{
+    border-bottom-left-radius: 10px;
+}
+
+.book:last-child{
+    border-bottom-right-radius: 10px;
+}
+.kep {
+    margin-bottom: 10px; /* Például 10 pixel tér alul */
+}
+ 
+/* Reszponzív Navigáció */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ 
