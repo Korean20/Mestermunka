@@ -49,7 +49,7 @@ if (isset($_POST['adatokModositasa'])) {
     }
 
 
-    if (isset($_FILES['fProfilkepSzerkesztes'])) {
+    if (isset($_FILES['fProfilkepSzerkesztes']) AND $_FILES['fProfilkepSzerkesztes']['name'] != '') {
         $fajlnev = $_FILES['fProfilkepSzerkesztes']['name'];
         $tempnev = $_FILES['fProfilkepSzerkesztes']['tmp_name'];
 

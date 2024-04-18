@@ -7,7 +7,7 @@ $felhasznaloId = $_SESSION['id'];
 if(isset($_POST['uzenetKuldes'])){
     $uzenet = htmlentities($_POST['uzenet']);
     if($uzenet != ''){
-        $sql = "INSERT INTO chat (felhasznalo_id, uzenet) VALUES ('$felhasznaloId', '$uzenet')";
+        $sql = "INSERT INTO chat (felhasznalo_id, uzenet, kategoria_id) VALUES ('$felhasznaloId', '$uzenet', '0')";
         $qry = mysqli_query($conn, $sql);
     }else{
         $error = 'Kérjük adjon meg üzenetet!';
@@ -33,7 +33,7 @@ if(isset($_POST['uzenetKuldes'])){
                         <div class="overflow-auto">
                             <!-- Chat üzenetek -->
                             <?php
-                            $sql = "SELECT chat.*, felhasznalok.nev as fNev, felhasznalok.profilkep as fKep FROM chat JOIN felhasznalok ON chat.felhasznalo_id = felhasznalok.id ORDER BY chat.datum DESC";
+                            $sql = "SELECT chat.*, felhasznalok.nev as fNev, felhasznalok.profilkep as fKep FROM chat JOIN felhasznalok ON chat.felhasznalo_id = felhasznalok.id  WHERE chat.kategoria_id='0' ORDER BY chat.datum DESC";
                             $qry = mysqli_query($conn, $sql);
                             while($rs = mysqli_fetch_assoc($qry)) { ?>
                                 <div class="row">
