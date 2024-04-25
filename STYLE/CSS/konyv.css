@@ -37,7 +37,7 @@ p {
 .book{
     text-align: left;
 }
-
+ 
  
 @keyframes pulse {
     0% {
@@ -52,7 +52,7 @@ p {
 }
  
 nav {
-    background: linear-gradient(135deg, #faea0f, #1001d8); /* Lila gradient háttér */
+    background: linear-gradient(135deg, #CCCCFF,#FFB6FF); /* Lila gradient háttér */
     color: #fff;
     padding: 10px;
     display: flex;
@@ -74,17 +74,17 @@ nav a {
 nav a:hover {
     color: #FFD700; /* Arany szín az egér fölé mozgatáskor */
 }
-
+ 
 .book {
     padding: 20px;
-    background: linear-gradient(135deg, #faea0f, #1001d8);
+    background: linear-gradient(135deg, rgb(117, 110, 210), rgb(67, 52, 202));
     height: 100%;
 }
-
+ 
 .book:first-child{
     border-bottom-left-radius: 10px;
 }
-
+ 
 .book:last-child{
     border-bottom-right-radius: 10px;
 }
@@ -99,4 +99,3 @@ nav a:hover {
         align-items: center;
     }
 }
- 
