@@ -1,6 +1,6 @@
     <?php if($oldal != 'konyvKategoria' AND $oldal != 'konyv'){ ?>
     <footer class="bg-light p-3">
-        <p class="mb-0">Az oldalt készítette: Korsós Renáta és Draganics Dóra: Elérhetőségek: rkorsos0526@gmail.com   draganicsdora@gmail.com </p>
+        <p class="mb-0">Az oldalt készítette: Korsós Renáta és Draganics Dóra Elérhetőségek: rkorsos0526@gmail.com, draganicsdora@gmail.com </p>
     </footer>
     <?php } ?>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
